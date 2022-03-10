@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Ejercicios basicos de HTML</title>
+</head>
+<body>
+  <h1>Formulario de ingreso</h1>
+  <form action="#" method="post">
+  <p>  Nombre:* <input type="text" name="username" placeholder="tu nombre aqui" required>
+    </p>
+
+
+    <p>Apellidos:* <input type="username" name="tus apellidos aqui"placeholder="tus apellidos aqui" required></p>
+
+
+    <p>Edad:*<input type="number" name="edad" min="18" max="75" required> </p>
+
+
+    Sexo:*
+    <input type="radio" name="genero" value="hombre">Hombre
+    <input type="radio" name="genero" value="mujer">Mujer
+    <input type="radio" name="genero" value="otro">Otro
+    <input type="radio" name="genero" value="no binario">No binario
+
+    <p>
+      <label for="correo">Correo:*</label>
+      <input type="email" name="correo" id="correo" maxlength="50" required/>
+    </p>
+
+    <p>
+      <label for="poblacion">Poblacion:</label>
+      <select name="poblacion" id="poblacion">
+        <option value="">Elige una opción</option>
+        <option>Madrid</option>
+        <option>Paris</option>
+        <option>Lisboa</option>
+        <option>Roma</option>
+      </select>
+    </p>
+    <p><label form="descripcion">Descripción:</label>
+      <textarea name="descripcion" rows="8" cols="60"></textarea>
+      <br/>
+      <br>
+
+      <input type="checkbox" name="descripcion" value="Si deseo" required>Deseo recibir información sobre novedades y ofertas.<br/>
+      <input type="checkbox" name="descripcion" value="Si declaro" required>Declaro haber leído y aceptado las condiciones generales del programa y la normativa sobre la protección de datos.<br/>
+      <br>
+
+
+      <input type="submit" value="Enviar">
+
+    </form>
+
+
+
+
+  </body>
+  </html>
