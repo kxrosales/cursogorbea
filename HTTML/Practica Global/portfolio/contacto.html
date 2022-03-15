@@ -24,36 +24,63 @@
       <hr/>
     </header>
 
-    <table>
+    <main>
+      <form action="#" method="post">
+
+
+
       <fieldset>
         <legend>Formulario de contacto</legend>
-        Nombre:<input type="text" name="nombre"><br/>
-        Apellidos:<input type="text" name="apellidos"><br/>
-        Contrase&ntilde;a:<input type="password" name="password" required><br/>
-        Repite la contrase&ntilde;a:<input type="password" name="password" required><br/>
-        Indica tu sexo:  <input type="radio" name="genero" value="hombre">Hombre
-        <input type="radio" name="genero" value="mujer">Mujer<br/>
-        <input type="checkbox" name="Si quiero" value="boton" required>Suscribirme al bolet&iacute;n de novedades<br/>
+        <table>
 
-        ¿Sobre qu&eacute; Juego te gustar&iacute;a recibir informaci&oacute;n?
+        <tr>
+          <td><label for="nombre">Nombre:</label></td>
+          <td><input type="text" value="" name="nombre" size="20" maxlength="18" id="nombre"></td>
+        </tr>
+        <tr>
+          <td><label for="apellido">Apellidos:</label></td>
+          <td><input type="text" value="" name="apellidos" size="50" maxlength="48" id="apellidos"></td>
+        </tr>
+        <tr>
+          <td><label for="contraseña">Contrase&ntilde;a:</label></td>
+          <td><input form="password" value="" name="contraseña" size="20" maxlength="18" id="contraseña"></td>
+        </tr>
+        <tr>
+          <td><label for="repetir">Repite la contrase&ntilde;a:</label></td>
+          <td><input form="password" value="" name="repetir" size="20" maxlength="18" id="repetir"></td>
+        </tr>
+        <tr>
+          <td>Indica tu sexo:</td>
+          <td>
+            <input type="radio" value="hombre" name="sexo"  id="hombre"><label>Hombre</label>
+        <input type="radio" value="mujer" name="sexo" id="mujer"><label>Mujer</label>
+      </td>
+        </tr>
 
+        <tr>
+          <td>
+            <input type="checkbox" value="suscribir" name="suscribir" id="subs" checked="checked">
+            <label for="subs">Suscribirme al bolet&iacute;n de novedades</label>
+          </td>
+          <tr>
+            <td><label for="">¿Sobre qué Juego te gustaría recibir información?</label></td>
+              <td>
+                <select id="interes" name="interes">
+                  <option value="">Seleccione una opcion</option>
+                  <option value="kart">Mariano Kart</option>
+                  <option value="celda">Celdas</option>
+                  <option value="party">Mariano Party</option>
+                  <option value="tatris">Tatris</option>
+                </select>
 
-        <select id=""name="">
-          <optgroup label="">
-            <option value="1">Mariano kart</option>
-            <option value="2">Celdas</option>
-            <option value="3">Mariano Party</option>
-            <option value="4">Tatris</option>
-          </optgroup>
+            </td>
 
-        </select  >
-        <br/>
-        <p>
-
-
-          <input type="submit" value="Enviar">
-          <input type="button" value="Borrar los datos introducidos">
-        </p>
+</tr>
+<tr>
+  <td>
+    <input type="submit" value="Enviar" name="enviar">
+    <input type="reset" value="Borrar los datos introducidos" name="reset">
+</td>
 
 
 
@@ -67,8 +94,8 @@
 
 
       </fieldset>
-
-
+    </form>
+  </main>
 
 
 
