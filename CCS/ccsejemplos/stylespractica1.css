@@ -1,0 +1,57 @@
+body{
+
+font-family: calibri;
+}
+
+
+
+
+h1{
+color: #09AFA0;
+
+text-align: center;
+font-family: calibri;
+padding-bottom: 20px;
+border-bottom-width: 2px;
+border-bottom-color:black;
+border-bottom-style: solid;
+
+}
+
+
+
+h2{
+
+text-align: left;
+  border-color: #09AFA0;
+  padding-bottom: 5px;
+  border-bottom-width: 1px;
+  border-bottom-color: #09AFA0;
+  border-bottom-style: dotted;
+  width: 60%;
+}
+
+p{
+text-align: left;
+margin-left: 30px ;
+
+
+}
+
+section{
+  margin-bottom: 2em;
+}
+
+span{
+
+  color: #09AFA0;
+  text-decoration: underline;
+  font-weight: bold;
+}
+b{
+  color: #09AFA0
+
+  font-weight: bold;
+
+
+}

@@ -1,0 +1,39 @@
+h1{
+  color:#777D7C;
+text-align: center;
+font-family: arial;
+}
+
+main{
+  font-family:verdana;
+}
+
+
+h2{
+  border-bottom-width: 0.05em;
+  border-bottom-style:solid;
+  border-bottom-color: turquoise;
+}
+
+p{
+font-size: 10px;
+
+}
+
+#parrafo1{
+
+  border:1px solid black;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+span{
+
+  color:blue;
+  text-decoration:underline;
+}
