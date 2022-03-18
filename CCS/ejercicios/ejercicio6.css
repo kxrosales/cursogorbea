@@ -1,0 +1,22 @@
+input[type="checkbox"]:checked{
+
+  box-shadow: 0 0 0 2px red;
+  accent-color:green;
+}
+
+::selection{
+  background-color: pink;
+  color:darkgreen
+}
+
+:focus{
+  background-color: pink;
+}
+
+:hover{
+background-color: darkred;
+font-family: cursive;
+text-decoration: underline;
+
+
+}
