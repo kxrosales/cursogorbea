@@ -1,0 +1,19 @@
+ul{
+display:flex;
+justify-content: space-between;
+gap:2px;
+padding: 0px;
+
+flex-direction: row;
+list-style: none;
+}
+
+li{
+background: rgba(123,198,199,0.8);
+margin-bottom: 1px;
+flex-grow: 1;
+ flex-shrink: 1;
+ flex-basis: 0;
+ font-family: sans-serif;
+
+}
