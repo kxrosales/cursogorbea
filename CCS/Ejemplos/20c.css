@@ -1,0 +1,45 @@
+body{
+  display: grid;
+  grid-template-areas: "header header header"
+  "nav main ads"
+  "footer footer footer";
+
+
+  grid-template-rows:80px 1Fr 70px;
+  grid-template-columns:20% 1Fr 15%;
+  height: 100vH;
+  margin: 0;
+  gap: 10px;
+}
+
+#pageheader{
+  grid-area: header;
+}
+
+#mainsection{
+  grid-area: main;
+}
+
+#mainnav{
+  grid-area:nav;
+}
+#siteads{
+  grid-area:ads;
+}
+
+#pagefooter{
+  grid-area: footer;
+}
+
+header,footer,main,nav,div{
+  background-color: #DFFF00;
+  padding: 8px;
+
+}
+
+
+h2{
+  text-align: center;
+  font-family: sans-serif;
+  color: purple;
+}

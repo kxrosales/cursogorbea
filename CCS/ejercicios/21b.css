@@ -1,0 +1,65 @@
+body{
+  display: grid;
+  grid-template-areas: "header header header"
+  "nav main ads"
+  "footer footer footer";
+
+
+  grid-template-rows:80px 1Fr 70px;
+  grid-template-columns:20% 1Fr 15%;
+  height: 100vH;
+  margin: 0;
+  gap: 10px;
+}
+
+#pageheader{
+  grid-area: header;
+}
+
+#mainsection{
+  grid-area: main;
+}
+
+#mainnav{
+  grid-area:nav;
+}
+#siteads{
+  grid-area:ads;
+}
+
+#pagefooter{
+  grid-area: footer;
+}
+
+header,footer,main,nav,div{
+  background-color: #DFFF00;
+  padding: 8px;
+
+}
+
+.articleSection{
+  display: grid;
+  grid-template-areas:
+  "article article"
+  "article article";
+
+  grid-template-rows: 1Fr 1Fr;
+  grid-template-columns: 1Fr 1Fr;
+  margin-top: 1em;
+  text-align: center;
+}
+
+main h2{
+  text-align:center;
+}
+
+article{
+
+  margin-top: 3em;
+}
+
+
+header h1{
+  text-align: center;
+  font-family:sans-serif;
+}
